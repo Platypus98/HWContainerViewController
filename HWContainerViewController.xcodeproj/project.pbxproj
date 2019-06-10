@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0995BE4322AEF177008E1162 /* HorizontalSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0995BE4222AEF177008E1162 /* HorizontalSplitViewController.m */; };
+		0995BE4622AEF194008E1162 /* VerticalSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0995BE4522AEF194008E1162 /* VerticalSplitViewController.m */; };
 		09E85765229ABC1300FC46A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E85764229ABC1300FC46A7 /* AppDelegate.m */; };
 		09E85768229ABC1300FC46A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E85767229ABC1300FC46A7 /* ViewController.m */; };
 		09E8576B229ABC1300FC46A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E85769229ABC1300FC46A7 /* Main.storyboard */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0995BE4122AEF177008E1162 /* HorizontalSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalSplitViewController.h; sourceTree = "<group>"; };
+		0995BE4222AEF177008E1162 /* HorizontalSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalSplitViewController.m; sourceTree = "<group>"; };
+		0995BE4422AEF194008E1162 /* VerticalSplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalSplitViewController.h; sourceTree = "<group>"; };
+		0995BE4522AEF194008E1162 /* VerticalSplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalSplitViewController.m; sourceTree = "<group>"; };
 		09E85760229ABC1300FC46A7 /* HWContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E85763229ABC1300FC46A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09E85764229ABC1300FC46A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +68,10 @@
 				09E85764229ABC1300FC46A7 /* AppDelegate.m */,
 				09E85766229ABC1300FC46A7 /* ViewController.h */,
 				09E85767229ABC1300FC46A7 /* ViewController.m */,
+				0995BE4122AEF177008E1162 /* HorizontalSplitViewController.h */,
+				0995BE4222AEF177008E1162 /* HorizontalSplitViewController.m */,
+				0995BE4422AEF194008E1162 /* VerticalSplitViewController.h */,
+				0995BE4522AEF194008E1162 /* VerticalSplitViewController.m */,
 				09E85769229ABC1300FC46A7 /* Main.storyboard */,
 				09E8576C229ABC1400FC46A7 /* Assets.xcassets */,
 				09E8576E229ABC1400FC46A7 /* LaunchScreen.storyboard */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0995BE4622AEF194008E1162 /* VerticalSplitViewController.m in Sources */,
 				09E85768229ABC1300FC46A7 /* ViewController.m in Sources */,
 				09E85773229ABC1400FC46A7 /* main.m in Sources */,
 				09E85765229ABC1300FC46A7 /* AppDelegate.m in Sources */,
+				0995BE4322AEF177008E1162 /* HorizontalSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
